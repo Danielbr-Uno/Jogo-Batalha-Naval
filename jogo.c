@@ -30,8 +30,6 @@ int main(){
         }
     }
     
-
-
     //Mostrando o tabuleiro.
     printf("   ## JOGO BATALHA NAVAL ##\n");
     printf("\n");
