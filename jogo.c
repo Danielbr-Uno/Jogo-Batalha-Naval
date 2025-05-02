@@ -13,7 +13,7 @@ int main(){
         printf("\n");
     }
 
-    //Inserindo embarcações nas posições D4-F4 e J7-J9.
+    //Inserindo embarcações nas posições D4-F4(horizontal) e J7-J9(vertical).
     int bl1 = 4;
     int bc1 = 3;
     for(int k = 0; k < 3; k++)
@@ -21,12 +21,36 @@ int main(){
         tabuleiro[bl1][bc1 + k] = 3;
     }
 
-    int linha = 7;
-    int coluna = 'J' - 'A';
-    for (int q = 0; q < 3; q++)
+    int bl2 = 7;
+    int bc2 = 'J' - 'A';
+    for (int k = 0; k < 3; k++)
     {
-        if (linha + q < 10){
-        tabuleiro[linha + q][coluna] = 3;
+        if (bl2 + k < 10){
+        tabuleiro[bl2 + k][bc2] = 3;
+        }
+    }
+
+    //Inserindo as embarcações nas diagonais A0-C2(principal) e J0-H2(secundária).
+    int bl3 = 0;
+    int bc3 = 'A' - 'A';
+    for(int k = 0; k < 3; k++)
+    {
+        int linha = bl3 + k;
+        int coluna = bc3 + k;
+
+        if(linha < 10 && coluna < 10){
+            tabuleiro[linha][coluna] = 3;
+        }
+    }
+
+    int bl4 = 0;
+    int bc4 = 'J' - 'A';
+    for(int k = 0; k < 3; k++){
+        int linha = bl4 + k;
+        int coluna = bc4 - k;
+
+        if(linha < 10 && coluna < 10){
+            tabuleiro[linha][coluna] = 3;
         }
     }
     
