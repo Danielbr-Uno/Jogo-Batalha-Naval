@@ -1,31 +1,42 @@
-🚢 Batalha Naval – Jogo em C
+# ⚓🛳️ Jogo Batalha Naval em C
 
-Implementação de um jogo de Batalha Naval em linguagem C, utilizando matrizes bidimensionais para representar o tabuleiro e as embarcações.
+Este projeto simula um **tabuleiro de Batalha Naval** em **C**, com algumas habilidades especiais para deixar o jogo mais estratégico!  
 
-Desenvolvimento de funções para posicionamento aleatório de navios, verificação de acertos e controle de rodadas.
+O foco é mostrar a **manipulação de matrizes** e a **lógica de posicionamento de peças/embarcações**.
 
-Aplicação de lógica de programação para garantir o funcionamento dinâmico e interativo do jogo.
+---
 
-Tecnologias Utilizadas:
+## 🎯 Funcionalidades
 
-Linguagem: C
+- 🔹 Tabuleiro de **10x10**  
+- 🚢 Inserção de **embarcações horizontais, verticais e diagonais** (comentadas para estudo)  
+- ✨ Habilidades especiais:
+  - ❌ Cruz  
+  - 🔺 Cone  
+  - 🔷 Octaedro  
+- 🖥️ Impressão do tabuleiro no terminal
 
-Estruturas de Dados: Matrizes bidimensionais
+---
 
-Técnicas: Geração de números aleatórios, controle de fluxo
+## 📺 Exemplo de saída:
 
-Aplicações e Aprendizados:
+   ## JOGO BATALHA NAVAL ##
 
-Lógica de Programação: Implementação de algoritmos para controle do jogo e interação com o usuário.
+   A  B  C  D  E  F  G  H  I  J
+0  0  0  0  0  0  0  0  5  0  0
+1  0  0  0  0  0  0  0  1  0  0
+2  0  0  0  0  0  0  0  1  0  0
+3  0  0  0  0  0  0  0  1  0  0
+4  0  0  0  0  0  0  0  1  0  0
+5  0  0  0  0  0  0  0  1  0  0
+6  0  0  0  0  0  0  0  0  0  0
+7  0  0  0  0  0  0  0  2  2  2
+8  0  0  0  0  0  0  0  2  2  2
+9  0  0  0  0  0  0  0  0  0  0
 
-Estruturas de Dados: Utilização de matrizes para representar o estado do jogo.
+Os números representam diferentes elementos:
+"0️⃣ Espaço vazio"
+"1️⃣ Habilidade Cruz"
+"2️⃣ Habilidade Octaedro"
+"5️⃣ Habilidade Cone"
 
-Modularidade: Organização do código em funções para facilitar manutenção e expansão.
-
-Aplicabilidade em Outras Áreas:
-
-Desenvolvimento de Jogos: Base para criação de jogos interativos com regras específicas.
-
-Algoritmos de Busca e IA: Fundamentos para implementação de inteligência artificial em jogos.
-
-Educação: Ferramenta para ensinar lógica de programação e estruturas de dados de forma prática.
