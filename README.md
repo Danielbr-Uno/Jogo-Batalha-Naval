@@ -18,25 +18,8 @@ O foco é mostrar a **manipulação de matrizes** e a **lógica de posicionament
 
 ---
 
-## 📺 Exemplo de saída:
+## 📌 Observações
 
-   ## JOGO BATALHA NAVAL ##
-
-   A  B  C  D  E  F  G  H  I  J
-0  0  0  0  0  0  0  0  5  0  0
-1  0  0  0  0  0  0  0  1  0  0
-2  0  0  0  0  0  0  0  1  0  0
-3  0  0  0  0  0  0  0  1  0  0
-4  0  0  0  0  0  0  0  1  0  0
-5  0  0  0  0  0  0  0  1  0  0
-6  0  0  0  0  0  0  0  0  0  0
-7  0  0  0  0  0  0  0  2  2  2
-8  0  0  0  0  0  0  0  2  2  2
-9  0  0  0  0  0  0  0  0  0  0
-
-Os números representam diferentes elementos:
-"0️⃣ Espaço vazio"
-"1️⃣ Habilidade Cruz"
-"2️⃣ Habilidade Octaedro"
-"5️⃣ Habilidade Cone"
-
+- Algumas partes do código (inserção de embarcações horizontais, verticais e diagonais) estão comentadas para facilitar testes e aprendizado.
+- Ideal para estudo de matrizes, loops e lógica em C.
+- Pode ser expandido para um jogo interativo com entrada do usuário e turnos de ataque.
